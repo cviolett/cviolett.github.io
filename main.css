@@ -27,6 +27,10 @@ p{
     padding-right: 100px; 
 }
 
+.container{
+    display: flex;
+}
+
 
 .main{
     padding-left: 30px;
