@@ -9,3 +9,14 @@ h1 {
     font-size: large;
     text-align: center;
 }
+
+h2{
+    font-size: medium;
+    text-align: left;
+}
+
+.nav{
+    background-color: crimson;
+    width: 25%;
+    min-width: 140px;
+}
