@@ -41,12 +41,12 @@ div {
 .main{
     padding-left: 30px;
     min-width: 75%;
-    flex: 0;
+    flex: 1;
 }
 
 .nav{
     background-color: crimson;
     max-width: 25%;
     min-width: 140px;
-    flex: 1;
+    flex: 0;
 }
