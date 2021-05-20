@@ -54,6 +54,14 @@ div {
   padding-left: 20px; 
 }
 
-.rotate-infinite {
-    animation: rotation 5s linear  infinite;
+.rotate-infinite{
+    animation-name: spinning; 
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;    
+}
+
+@keyframes spinning {
+    from{ transform: rotate(0deg);}
+    to{ transform: rotate(360deg);}
 }
