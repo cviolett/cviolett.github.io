@@ -35,7 +35,7 @@ div {
 
 .container{
     display: flex;
-    background-image: url("images/Galaxy_landing.jpg") 0 0 repeat;
+    background-image: url("images/Galaxy_landing.jpg");
     background-position: center;
     background-size: cover;
     animation-name: spinning;
