@@ -35,6 +35,19 @@ div {
 
 .container{
     display: flex;
+    background-image: url("images/Galaxy_landing.jpg") 0 0 repeat;
+    background-position: center;
+    background-size: cover;
+    animation-name: spinning;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes spinning {
+    from{ transform: rotate(0deg);}
+    to{ transform: rotate(360deg);}
 }
 
 
@@ -44,7 +57,6 @@ div {
 }
 
 .nav{
-    background-color: crimson;
     max-width: 35%;
     min-width: 140px;
     flex: 1;
@@ -54,14 +66,5 @@ div {
   padding-left: 20px; 
 }
 
-.rotate-infinite{
-    animation-name: spinning; 
-    animation-duration: 5s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;    
-}
 
-@keyframes spinning {
-    from{ transform: rotate(0deg);}
-    to{ transform: rotate(360deg);}
-}
+
