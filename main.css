@@ -34,7 +34,10 @@ div {
 }
 
 .container{
-    display: flex;
+    display: flex; 
+}
+
+.background_img{
     background-image: url("images/Galaxy_landing.jpg");
     background-position: center;
     background-size: cover;
@@ -42,7 +45,6 @@ div {
     animation-timing-function: linear;
     animation-duration: 5s;
     animation-iteration-count: infinite;
-    
 }
 
 @keyframes spinning {
