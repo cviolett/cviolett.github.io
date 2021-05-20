@@ -37,6 +37,7 @@ div {
 .container{
     display: flex; 
     color: whitesmoke; 
+    background-image: url("images/Galaxy_landing.jpg");
 }
 
 .container ::before{
