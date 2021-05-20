@@ -53,3 +53,7 @@ div {
 .nav h1 {
   padding-left: 20px; 
 }
+
+.rotate-infinite {
+    animation: rotation 5s linear  infinite;
+}
