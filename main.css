@@ -35,10 +35,12 @@ div {
 
 .container{
     display: flex; 
+    background: url("images/Galaxy_landing.jpg");
+    animation: spinning 10s linear infinite;
 }
 
 .background_img{
-    background-image: url("images/Galaxy_landing.jpg");
+    
     background-position: center;
     background-size: cover;
     animation-name: spinning;
