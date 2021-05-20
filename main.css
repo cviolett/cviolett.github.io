@@ -35,21 +35,25 @@ div {
 }
 
 .container{
-    display: flex; 
-    color: whitesmoke; 
-    background-image: url("images/Galaxy_landing.jpg");
+    display: flex;  
 }
 
-.container ::before{
+.backG{
+    animation: falling 5s ease-in-out infinite alternate;
+    background-image: linear-gradient(to bottom, crimson, gold);
+}
+
+/*.container ::before{
     background: url("images/Galaxy_landing.jpg") no-repeat center center;
     width: 100%;
     height: 100%;
     animation: spinning 10s linear infinite;
 }
+*/
 
-@keyframes spinning {
-    from{ transform: rotate(0deg);}
-    to{ transform: rotate(360deg);}
+@keyframes falling {
+    0%{ transform: translateY(-25%);}
+    100%{ transform: translateY(25%);}
 }
 
 
